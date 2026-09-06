@@ -7,6 +7,7 @@ import StorySection from './components/Story/StorySection';
 import OrderForm from './components/OrderForm';
 import Footer from './components/Footer/Footer';
 import SuccessModal from './components/SuccessModal';
+import WhatsAppButton from './components/WhatsAppButton';
 import { OrderFormData } from './types/form';
 import { products } from './data/products';
 import { X } from 'lucide-react';
@@ -157,6 +158,7 @@ function App() {
       )}
 
       <SuccessModal isOpen={showModal} onClose={() => setShowModal(false)} />
+      <WhatsAppButton />
     </div>
   );
 }

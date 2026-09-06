@@ -57,4 +57,13 @@
       transform: translateY(0);
     }
   }
+
+  @keyframes waPulse {
+    0%, 100% {
+      box-shadow: 0 6px 20px rgba(36, 50, 71, 0.35), 0 0 0 0 rgba(37, 211, 102, 0.45);
+    }
+    50% {
+      box-shadow: 0 6px 20px rgba(36, 50, 71, 0.35), 0 0 0 10px rgba(37, 211, 102, 0);
+    }
+  }
 }

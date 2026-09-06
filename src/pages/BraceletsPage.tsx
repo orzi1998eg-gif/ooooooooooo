@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { products } from '../data/products';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 function BraceletSection({
   product,
@@ -537,6 +538,7 @@ export default function BraceletsPage() {
           </div>
         </div>
       </footer>
+      <WhatsAppButton />
     </div>
   );
 }
